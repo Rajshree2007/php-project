@@ -1,11 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My PHP Project</title>
+</head>
+<body>
+
+<h1>Welcome to My PHP Project</h1>
+<h2>Successfully Deployed Using Jenkins!</h2>
+
 <?php
-
-echo "<h1>Welcome to My PHP Jenkins Project</h1>";
-
-echo "<h2>PHP Project Successfully Deployed!</h2>";
-
-echo "<p>My first P HP project using Jenkins Freestyle.</p>";
-
-echo "<p>PHP 1.0.0 " .</p>"; 
-
+echo "PHP Version: " . phpversion();
 ?>
+
+</body>
+</html>
+
